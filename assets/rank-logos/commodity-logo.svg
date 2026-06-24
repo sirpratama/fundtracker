@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#3f352b"/><stop offset="1" stop-color="#052d22"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#052d22" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#bg)"/>
+  <circle cx="120" cy="104" r="72" fill="rgba(255,255,255,.13)" stroke="rgba(255,255,255,.24)" stroke-width="2" filter="url(#s)"/>
+  <path d="M66 132 L92 70 L139 58 L174 92 L160 150 L103 165 Z" fill="#161616" stroke="#f1f1f1" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M92 70 L111 124 L174 92 M111 124 L103 165" fill="none" stroke="#6f6f6f" stroke-width="4" stroke-linecap="round"/>
+  <text x="120" y="196" text-anchor="middle" font-family="Montserrat,Arial" font-size="21" font-weight="700" fill="#fff">COAL</text>
+  <text x="120" y="218" text-anchor="middle" font-family="Montserrat,Arial" font-size="12" font-weight="500" fill="rgba(255,255,255,.72)">COMMODITY</text>
+</svg>

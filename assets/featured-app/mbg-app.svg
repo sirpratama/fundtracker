@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f7fff9"/><stop offset=".55" stop-color="#e5f6ef"/><stop offset="1" stop-color="#0b6b4f" stop-opacity=".34"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#073b2d"/><stop offset="1" stop-color="#052d22"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#052d22" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="420" height="420" fill="url(#bg)"/>
+  <circle cx="340" cy="82" r="74" fill="#fff" opacity=".42"/>
+  <circle cx="66" cy="332" r="92" fill="#0b6b4f" opacity=".12"/>
+  <g transform="translate(68 20) rotate(-4 142 190)" filter="url(#shadow)">
+    <rect width="284" height="384" rx="44" fill="url(#phone)"/>
+    <rect x="14" y="16" width="256" height="352" rx="34" fill="#f7fff9"/>
+    <rect x="105" y="29" width="74" height="7" rx="4" fill="#0d5843" opacity=".38"/>
+    <g transform="translate(36 56)">
+      <rect width="212" height="88" rx="24" fill="#0b6b4f"/>
+      <text x="18" y="31" font-family="Montserrat,Arial" font-size="18" font-weight="600" fill="#fff">MBG Proxy</text>
+      <text x="18" y="54" font-family="Montserrat,Arial" font-size="10" font-weight="500" fill="rgba(255,255,255,.78)">Nutrition-program beneficiaries</text>
+      <text x="18" y="78" font-family="Montserrat,Arial" font-size="18" font-weight="600" fill="#fff">+36.2%</text>
+    </g>
+    <path d="M56 194 C94 182 122 162 154 166 C194 172 220 138 262 122" fill="none" stroke="#0b6b4f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M56 218 H262" stroke="#dbece5" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+    
+      <g transform="translate(48 246)">
+        <rect width="214" height="48" rx="16" fill="#ffffff" stroke="#dbece5"/>
+        <circle cx="25" cy="24" r="14" fill="#f4b23d"/>
+        <text x="50" y="21" font-family="Montserrat,Arial" font-size="12" font-weight="600" fill="#073b2d">ICBP</text>
+        <text x="50" y="36" font-family="Montserrat,Arial" font-size="9" font-weight="500" fill="#647e73">Staples demand</text>
+        <text x="195" y="29" text-anchor="end" font-family="Montserrat,Arial" font-size="11" font-weight="600" fill="#0b6b4f">30%</text>
+      </g>
+      <g transform="translate(48 304)">
+        <rect width="214" height="48" rx="16" fill="#ffffff" stroke="#dbece5"/>
+        <circle cx="25" cy="24" r="14" fill="#0b6b4f"/>
+        <text x="50" y="21" font-family="Montserrat,Arial" font-size="12" font-weight="600" fill="#073b2d">JPFA</text>
+        <text x="50" y="36" font-family="Montserrat,Arial" font-size="9" font-weight="500" fill="#647e73">Poultry supply</text>
+        <text x="195" y="29" text-anchor="end" font-family="Montserrat,Arial" font-size="11" font-weight="600" fill="#0b6b4f">22%</text>
+      </g>
+      <g transform="translate(48 362)">
+        <rect width="214" height="48" rx="16" fill="#ffffff" stroke="#dbece5"/>
+        <circle cx="25" cy="24" r="14" fill="#8fd694"/>
+        <text x="50" y="21" font-family="Montserrat,Arial" font-size="12" font-weight="600" fill="#073b2d">MAPI</text>
+        <text x="50" y="36" font-family="Montserrat,Arial" font-size="9" font-weight="500" fill="#647e73">Food retail</text>
+        <text x="195" y="29" text-anchor="end" font-family="Montserrat,Arial" font-size="11" font-weight="600" fill="#0b6b4f">15%</text>
+      </g>
+    <g transform="translate(68 336)">
+      <rect width="148" height="32" rx="16" fill="#052d22"/>
+      <text x="74" y="21" text-anchor="middle" font-family="Montserrat,Arial" font-size="10" font-weight="600" fill="#fff">View allocation</text>
+    </g>
+  </g>
+  <g transform="translate(262 282) rotate(8)" opacity=".96">
+    <rect width="96" height="74" rx="20" fill="#fff" stroke="#dbece5"/>
+    <text x="48" y="29" text-anchor="middle" font-family="Montserrat,Arial" font-size="11" font-weight="600" fill="#073b2d">IDX</text>
+    <text x="48" y="51" text-anchor="middle" font-family="Montserrat,Arial" font-size="20" font-weight="600" fill="#0b6b4f">+36.2%</text>
+  </g>
+</svg>

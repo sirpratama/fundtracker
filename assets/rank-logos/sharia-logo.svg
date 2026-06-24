@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#116149"/><stop offset="1" stop-color="#052d22"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#052d22" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#bg)"/>
+  <circle cx="120" cy="104" r="72" fill="rgba(255,255,255,.13)" stroke="rgba(255,255,255,.24)" stroke-width="2" filter="url(#s)"/>
+  <path d="M144 61 C115 67 94 91 94 121 C94 149 113 170 140 176 C103 181 70 152 70 117 C70 82 103 53 144 61 Z" fill="#fff"/>
+  <path d="M154 91 L162 109 L181 111 L166 124 L171 143 L154 133 L137 143 L142 124 L127 111 L146 109 Z" fill="#f4b23d"/>
+  <text x="120" y="196" text-anchor="middle" font-family="Montserrat,Arial" font-size="21" font-weight="700" fill="#fff">SYR</text>
+  <text x="120" y="218" text-anchor="middle" font-family="Montserrat,Arial" font-size="12" font-weight="500" fill="rgba(255,255,255,.72)">SHARIA</text>
+</svg>
