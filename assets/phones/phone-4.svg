@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 790" width="390" height="790">
+  <defs>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fbfffd"/><stop offset="1" stop-color="#eef8f3"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#052d22" flood-opacity=".24"/></filter>
+  </defs>
+  <rect x="18" y="10" width="354" height="770" rx="54" fill="#052d22" filter="url(#shadow)"/>
+  <rect x="34" y="31" width="322" height="728" rx="40" fill="url(#screen)"/>
+  <rect x="146" y="45" width="98" height="8" rx="4" fill="#0d5843" opacity=".35"/>
+
+  <text x="58" y="84" font-family="Montserrat,Arial,sans-serif" font-size="11" font-weight="600" fill="#647e73">ORDER REVIEW</text>
+  <text x="58" y="116" font-family="Montserrat,Arial,sans-serif" font-size="25" font-weight="600" fill="#073b2d">Send Orders</text>
+  <g transform="translate(56 138)">
+    <rect width="278" height="106" rx="28" fill="#052d22"/>
+    <text x="22" y="35" font-family="Montserrat,Arial,sans-serif" font-size="12" font-weight="600" fill="#a9c7bb">NET CASH NEEDED</text>
+    <text x="22" y="82" font-family="Montserrat,Arial,sans-serif" font-size="40" font-weight="600" fill="#ffffff">Rp 2.78M</text>
+    <rect x="178" y="30" width="78" height="32" rx="16" fill="#0b6b4f"/><text x="217" y="51" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="11" font-weight="600" fill="#ffffff">Stockbit</text>
+  </g>
+
+  <g transform="translate(56 260)" font-family="Montserrat,Arial,sans-serif" font-size="10" font-weight="600">
+    <rect width="86" height="28" rx="14" fill="#e5f6ef"/><text x="43" y="18" text-anchor="middle" fill="#0b6b4f">Stockbit ready</text>
+    <rect x="96" width="70" height="28" rx="14" fill="#ffffff" stroke="#dbece5"/><text x="131" y="18" text-anchor="middle" fill="#073b2d">IDX Open</text>
+    <rect x="176" width="102" height="28" rx="14" fill="#ffffff" stroke="#dbece5"/><text x="227" y="18" text-anchor="middle" fill="#073b2d">09:00-15:50</text>
+  </g>
+
+  <g transform="translate(56 310)" font-family="Montserrat,Arial,sans-serif">
+    <rect width="278" height="70" rx="22" fill="#ffffff" stroke="#dbece5"/>
+    <text x="18" y="25" font-size="10" font-weight="600" fill="#647e73">RDN Cash</text><text x="18" y="50" font-size="15" font-weight="600" fill="#073b2d">Rp22.4M</text>
+    <text x="112" y="25" font-size="10" font-weight="600" fill="#647e73">After orders</text><text x="112" y="50" font-size="15" font-weight="600" fill="#073b2d">Rp19.62M</text>
+    <text x="218" y="25" font-size="10" font-weight="600" fill="#647e73">Fees</text><text x="218" y="50" font-size="15" font-weight="600" fill="#073b2d">Rp9.4K</text>
+  </g>
+
+  <text x="58" y="413" font-family="Montserrat,Arial,sans-serif" font-size="15" font-weight="600" fill="#073b2d">Orders</text>
+  <g transform="translate(56 432)" font-family="Montserrat,Arial,sans-serif">
+    <rect width="278" height="48" rx="17" fill="#ffffff" stroke="#dbece5"/><rect x="14" y="13" width="36" height="22" rx="11" fill="#e5f6ef"/><text x="32" y="28" text-anchor="middle" font-size="9" font-weight="600" fill="#0b6b4f">Buy</text><text x="62" y="22" font-size="13" font-weight="600" fill="#073b2d">BBRI</text><text x="62" y="37" font-size="9" fill="#647e73">3 lots @ Rp4,520</text><text x="250" y="29" text-anchor="end" font-size="12" font-weight="600" fill="#073b2d">Rp1.36M</text>
+    <rect y="58" width="278" height="48" rx="17" fill="#ffffff" stroke="#dbece5"/><rect x="14" y="71" width="36" height="22" rx="11" fill="#e5f6ef"/><text x="32" y="86" text-anchor="middle" font-size="9" font-weight="600" fill="#0b6b4f">Buy</text><text x="62" y="80" font-size="13" font-weight="600" fill="#073b2d">BMRI</text><text x="62" y="95" font-size="9" fill="#647e73">2 lots @ Rp6,225</text><text x="250" y="87" text-anchor="end" font-size="12" font-weight="600" fill="#073b2d">Rp1.25M</text>
+    <rect y="116" width="278" height="48" rx="17" fill="#ffffff" stroke="#dbece5"/><rect x="14" y="129" width="36" height="22" rx="11" fill="#e5f6ef"/><text x="32" y="144" text-anchor="middle" font-size="9" font-weight="600" fill="#0b6b4f">Buy</text><text x="62" y="138" font-size="13" font-weight="600" fill="#073b2d">TLKM</text><text x="62" y="153" font-size="9" fill="#647e73">4 lots @ Rp2,850</text><text x="250" y="145" text-anchor="end" font-size="12" font-weight="600" fill="#073b2d">Rp1.14M</text>
+    <rect y="174" width="278" height="48" rx="17" fill="#ffffff" stroke="#dbece5"/><rect x="14" y="187" width="36" height="22" rx="11" fill="#fdebea"/><text x="32" y="202" text-anchor="middle" font-size="9" font-weight="600" fill="#b65b54">Sell</text><text x="62" y="196" font-size="13" font-weight="600" fill="#073b2d">BBCA</text><text x="62" y="211" font-size="9" fill="#647e73">1 lot @ Rp9,700</text><text x="250" y="203" text-anchor="end" font-size="12" font-weight="600" fill="#073b2d">Rp970K</text>
+  </g>
+
+  <g transform="translate(86 668)"><rect width="218" height="42" rx="21" fill="#0b6b4f"/><text x="109" y="27" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="13" font-weight="600" fill="#ffffff">Send to Stockbit</text></g>
+  <g transform="translate(50 724)"><rect width="290" height="48" rx="24" fill="#dcece5" opacity=".95"/><circle cx="30" cy="17" r="9" fill="#a9c7bb"/><text x="30" y="36" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" font-weight="600" fill="#a9c7bb">Home</text><circle cx="87" cy="17" r="9" fill="#a9c7bb"/><text x="87" y="36" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" font-weight="600" fill="#a9c7bb">Themes</text><circle cx="145" cy="17" r="9" fill="#a9c7bb"/><text x="145" y="36" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" font-weight="600" fill="#a9c7bb">Track</text><circle cx="203" cy="17" r="9" fill="#0b6b4f"/><text x="203" y="36" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" font-weight="600" fill="#0b6b4f">Orders</text><circle cx="260" cy="17" r="9" fill="#a9c7bb"/><text x="260" y="36" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" font-weight="600" fill="#a9c7bb">Watch</text></g>
+</svg>

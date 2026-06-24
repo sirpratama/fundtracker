@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FundTracker IDX theme portfolio landing page." />
+  <title>FundTracker - IDX Theme Portfolios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://storage.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="FundTracker home">
+      <img src="assets/fundtracker-mark.svg" alt="" class="brand-icon" />
+      <span class="brand-title">FundTracker</span>
+    </a>
+    <nav class="nav-actions" aria-label="Primary">
+      <a href="#featured" class="text-link">Launch an IDX Portfolio</a>
+      <a href="#featured" class="pill-link">Get FundTracker</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <img class="app-logo" src="assets/fundtracker-mark.svg" alt="FundTracker IDX logo" />
+        <p class="eyebrow">Indonesia Stock Exchange</p>
+        <h1 id="hero-title">IDX Investing Made Easy</h1>
+        <p class="hero-subtitle">Choose an Indonesian market theme. Connect Stockbit. Track your allocation.</p>
+        <a href="#featured" class="cta-button">Explore IDX Portfolios <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="phone-stage" aria-label="FundTracker IDX mobile app screenshots">
+        <div class="phone-track">
+          <img src="assets/phones/phone-1.svg" alt="FundTracker portfolio overview screen" />
+          <img src="assets/phones/phone-2.svg" alt="FundTracker IDX theme basket detail screen" />
+          <img src="assets/phones/phone-3.svg" alt="FundTracker allocation health and rebalance screen" />
+          <img src="assets/phones/phone-4.svg" alt="FundTracker Stockbit order review screen" />
+          <img src="assets/phones/phone-5.svg" alt="FundTracker IDX watchlist screen" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="featured" aria-labelledby="featured-title">
+      <div class="section-inner">
+        <h2 id="featured-title">Featured</h2>
+        <div class="featured-grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <section class="section performance-section" aria-label="Portfolio rankings">
+      <div class="section-inner rank-grid">
+        <div class="rank-column">
+          <div class="rank-heading-row">
+            <h2>Top Performers <span class="info-dot" aria-label="Info">i</span></h2>
+            <div class="tabs" role="tablist" aria-label="Time period selector">
+              <button role="tab">1W</button>
+              <button role="tab">1M</button>
+              <button role="tab">3M</button>
+              <button role="tab">6M</button>
+              <button role="tab">1Y</button>
+              <button role="tab" class="active" aria-selected="true">2Y</button>
+            </div>
+          </div>
+          <div class="rank-list" id="topPerformers"></div>
+        </div>
+
+        <div class="rank-column">
+          <div class="rank-heading-row popular-heading">
+            <h2>Popular</h2>
+          </div>
+          <div class="rank-list" id="popularList"></div>
+        </div>
+      </div>
+      <button class="more-button" id="moreButton" type="button">More</button>
+    </section>
+
+    <section class="section pilots-section" aria-labelledby="pilots-title">
+      <div class="section-inner">
+        <h2 id="pilots-title">Pilots</h2>
+        <p class="muted">Explore the Indonesian market Pilots creating IDX theme portfolios</p>
+        <div class="pilot-marquee" aria-label="Featured Pilots carousel">
+          <div class="pilot-track" id="pilotTrack"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-section" aria-labelledby="how-title">
+      <div class="section-inner how-inner">
+        <h2 id="how-title">How it works.</h2>
+        <div class="how-grid">
+          <article class="how-card">
+            <img src="assets/how-pick-idx.svg" alt="Pick an IDX theme portfolio" />
+            <div>
+              <h3>Pick your IDX Theme</h3>
+              <p>Choose an Indonesian-like placeholder portfolio such as Commodity - Driven, MBG - Proxy, or Bank Dividend Core.</p>
+            </div>
+          </article>
+          <article class="how-card">
+            <img src="assets/connect-stockbit.svg" alt="Connect Stockbit brokerage" />
+            <div>
+              <h3>Connect Stockbit</h3>
+              <p>Use Stockbit Sekuritas as the brokerage connection in the prototype flow.</p>
+            </div>
+          </article>
+          <article class="how-card">
+            <img src="assets/how-auto-rebalance.svg" alt="FundTracker allocation signals" />
+            <div>
+              <h3>Track Theme Rebalances</h3>
+              <p>Follow placeholder rebalance signals and portfolio allocation changes for IDX themes.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <h2>FundTracker</h2>
+      <div class="footer-columns">
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">X / Twitter</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Become a Pilot</a></li>
+            <li><a href="#">Research Notes</a></li>
+            <li><a href="#">IDX Themes</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fine-print">
+        <p>© FundTracker 2026 — IDX theme portfolio prototype. All portfolio names, metrics, allocations, and AUM figures shown here are placeholder data for visual design only. This prototype is not affiliated with the Indonesia Stock Exchange, Stockbit, or the named public figures.</p>
+        <p>This information is provided for educational and illustrative purposes only and is not investment advice, a recommendation, an offer to sell, or a solicitation to buy any security. Always do your own research before investing in Indonesian equities.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

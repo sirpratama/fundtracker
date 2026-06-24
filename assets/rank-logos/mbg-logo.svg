@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b6b4f"/><stop offset="1" stop-color="#052d22"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#052d22" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#bg)"/>
+  <circle cx="120" cy="104" r="72" fill="rgba(255,255,255,.13)" stroke="rgba(255,255,255,.24)" stroke-width="2" filter="url(#s)"/>
+  <circle cx="120" cy="103" r="42" fill="#fff"/>
+  <path d="M120 59 L133 88 L165 91 L141 112 L148 145 L120 128 L92 145 L99 112 L75 91 L107 88 Z" fill="#f4b23d" stroke="#0b6b4f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M96 122 C111 105 129 104 146 121" fill="none" stroke="#0b6b4f" stroke-width="7" stroke-linecap="round"/>
+  <text x="120" y="196" text-anchor="middle" font-family="Montserrat,Arial" font-size="21" font-weight="700" fill="#fff">MBG</text>
+  <text x="120" y="218" text-anchor="middle" font-family="Montserrat,Arial" font-size="12" font-weight="500" fill="rgba(255,255,255,.72)">NUTRITION</text>
+</svg>
